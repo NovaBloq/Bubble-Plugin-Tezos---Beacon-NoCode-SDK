@@ -1,0 +1,93 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Beacon SDK",
+    "events": {
+        "AAN": {
+            "caption": "Wallet connected",
+            "name": "wallet_connected"
+        },
+        "AAT": {
+            "caption": "User rejected action",
+            "name": "user_aborted_action"
+        },
+        "AAX": {
+            "caption": "Signed",
+            "name": "signed"
+        },
+        "AAe": {
+            "caption": "Token Sent",
+            "name": "token_sent"
+        }
+    },
+    "fields": {
+        "AAJ": {
+            "caption": "DApp name",
+            "doc": "Your DApp name to initiate Tezos SDK.",
+            "editor": "DynamicValue",
+            "name": "dapp_name",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Theme",
+            "default_val": "Light",
+            "doc": "Theme for the popup that user will see when connecting his wallet.",
+            "editor": "Dropdown",
+            "name": "theme",
+            "options": "Dark,Light",
+            "rank": 2
+        },
+        "AAO": {
+            "caption": "Network",
+            "default_val": "Mainnet",
+            "editor": "Dropdown",
+            "name": "network",
+            "options": "Mainnet,Ghostnet,Kathmandunet",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-wrench",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAM": {
+            "caption": "Connected Wallet Address",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "connected_wallet_address",
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "Is Wallet Connected",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_wallet_connected",
+            "value": "boolean"
+        },
+        "AAY": {
+            "caption": "Signature",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "signature",
+            "value": "text"
+        },
+        "AAf": {
+            "caption": "Transaction hash",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "transaction_hash",
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "caption": "Sign a message",
+    "fields": {
+        "AAV": {
+            "caption": "Message",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

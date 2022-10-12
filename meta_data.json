@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "ecommerce",
+        "1": "payment"
+    },
+    "demo_page": "https://ezplugins-demo-3.bubbleapps.io/version-test/tezos",
+    "description": "Connecting dApps with Wallets. \nOne SDK for Tezos dApp developers to seamlessly connect to multiple wallets.\n\nBeacon SDK supports Browser, Mobile, Desktop, Web and Hardware wallets.\n\n# Plugin Features:\n- Connect/Disconnect wallet\n- Sign a message\n- Send XTZ\n- Dark/Light theme\n- Set preferred network\n\nSupported networks:\nMainnet, Ghostnet, Kathmandunet\n\n[b]Demo:[/b]\nhttps://ezplugins-demo-3.bubbleapps.io/version-test/tezos\n\n---------------------------------------------------------------------------------------------------\nJoin the Web3 NoCode community on [b]Discord[/b]: https://discord.gg/GHSTa8H8Cb\n---------------------------------------------------------------------------------------------------",
+    "image": "//s3.amazonaws.com/appforest_uf/f1665579798050x328638710365100000/beacon_nocode.png",
+    "license": "open_source",
+    "link": "https://novabloq.com/contact",
+    "name": "Tezos - Beacon NoCode SDK",
+    "plugin_instructions": "Add the plugin element called \"Beacon SDK\" on the page. Make sure it is visible and not in a popup or a hidden group.\nOpen demo page in app editor for reference.\nContact us on Discord if you need help\n\nIf you don't have a Tezos wallet, you can use Templewallet, download it here:\n\nhttps://templewallet.com/download"
+}

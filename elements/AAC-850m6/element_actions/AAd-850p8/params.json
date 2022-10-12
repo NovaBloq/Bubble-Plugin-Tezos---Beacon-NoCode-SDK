@@ -1,0 +1,19 @@
+{
+    "caption": "Send XTZ",
+    "fields": {
+        "AAg": {
+            "caption": "Wallet to Receive",
+            "editor": "DynamicValue",
+            "name": "wallet_to_receive",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "XTZ Amount",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 1,
+            "value": "number"
+        }
+    }
+}

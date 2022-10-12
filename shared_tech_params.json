@@ -1,0 +1,20 @@
+{
+    "assets": {
+        "AAS": {
+            "name": "beacon-sdk",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1638355820379x523430056196316540/beacon-sdk.js"
+        },
+        "AAW": {
+            "name": "sdk-update1",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1638369882363x664465911278913000/beacon-sdk-updated.js"
+        },
+        "AAb": {
+            "name": "new_taquito_3",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1644513133458x699897967238716200/test_bundle3.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 2,
+        "use_jquery": true
+    }
+}
